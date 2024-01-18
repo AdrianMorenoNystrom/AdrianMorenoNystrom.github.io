@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrians Hemsida</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="about.html">Om Adrian</a></li>
+                <li><a href="portfolio.html" class="active-page">Portfolio</a></li>
+                <li><a href="images.html">Bilder</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id ="portfolio">
+            <h1>
+                Jag är en blivande systemutvecklare som främst arbetar i .NET(C#)
+            </h1>
+                <h2>
+                    Men jag besitter även kunskaper inom:
+                </h2>
+                <ul>
+                    <li id="li1">Databaser (SQL och Entity Framework)</li>
+                    <li id="li2">Html och CSS</li>
+                    <li id="li3">Javascript</li>
+                    <li id="li4">Projektledning och agila metoder</li>
+                    <li id="li5">Webbapplikationer i C#, ASP.NET</li>
+                    <li id="li6">Designmönster och arkitektur </li>
+                    <li id="li7">AI-komponenter och Machine Learning i MS Azure </li>
+                    <li id="li8">DevOps</li>
+                </ul>
+                <a href="https://github.com/AdrianMorenoNystrom" target="_blank">
+                    <img src="images/github.png" alt="github-logo"></a>
+                <a href="#" onclick="openCV()">
+                    <img src="images/cv.png" alt="cv"></a>
+
+                <div id="cvPopup" class="CV" onclick="closeCV">
+                    <div class="popup-content" onclick="event.stopPropagation">
+                        <span class="close" onclick="closeCV()">&times;</span>
+                        <h2>
+                            Kontaktuppgifter
+                        </h2>
+                            <P>Adrian Moreno Nyström
+                            <br>Alfta, Gävleborgs län.
+                            <br>070-7679459
+                            <br>adrianmorenonystrom@gmail.com
+                            </P>
+                                <h2>
+                                    Sammanfattning och mål
+                                </h2>
+                                    <ul>
+                                        <li>Driven och nyfiken kille på 21 år som studerar Systemutveckling .NET</li>
+                                        <li>Stor erfarenhet i att jobba i lag</li>
+                                        <li>Väldigt van att arbeta mot både kortsiktiga och långsiktiga mål.</li>
+                                        <li>Snabblärd och lösningsorienterad.</li>
+                                        <li>Söker LIA-plats som systemutvecklare med start Oktober 2024</li>
+                                    </ul>
+                                        <h2>
+                                            Arbetslivserfarenhet
+                                        </h2>
+                                            <h3>
+                                                2021-08 - 2023-08
+                                                <br>Maskinoperatör Edsbyverken, Edsbyn
+                                            </h3>
+                                                <p>
+                                                Maskinoperatör på en produktionslina med 5 arbetsstationer. Jag ingick i ett team på 4 personer där
+                                                kommunikation och lagarbete var viktigt. Jag ansvarade för kvalitet och service på maskiner och
+                                                robotar. Erhöll mig mycket kunskap om tillverkande industri,produktionssystem samt affärssystem.
+                                                </p>
+                                            <h3>
+                                                2019 - 2021
+                                                <br>Butiksbiträde Hemköp, Alfta
+                                            </h3>
+                                                <p>
+                                                Som butiksbiträde hade jag ansvar för att säkerställa en smidig kundupplevelse inom detaljhandeln.
+                                                Jag utförde uppgifter som kassahantering, kundservice, varuhantering och städning. Min roll krävde
+                                                att jag var serviceinriktad, har god kommunikationsförmåga och var noggrann med detaljer. Jag
+                                                trivdes med att arbeta i team och hantera olika arbetsuppgifter samtidigt.
+                                                </p>
+                                        <h2>
+                                            Utbildning
+                                        </h2>
+                                            <h3>
+                                                2023-08 - 2025-04
+                                                <br>Systemutvecklare.Net med AI-kompetens, Edugrade, Hudiksvall                                                
+                                            </h3>
+                                                <p>
+                                                Utbildningens syfte är att jag som elev efter examen ska kunna skapa program och applikationer med
+                                                hjälp av .NET-teknologier. Jag får även kompetens inom användningen av AI-verktyg och algoritmer
+                                                för att skapa intelligenta och datadrivna lösningar. Programmet ger en bred kunskapsbas och praktisk
+                                                erfarenhet för att arbeta inom områden som applikationsutveckling, maskininlärning och AI-baserad
+                                                systemutveckling.
+                                                </p>
+                                            <h3>
+                                                2018 - 2021
+                                                <br>Teknikprogrammet Informations och Medieteknik, Voxnadalens gymnasium, Edsbyn
+                                            </h3>
+                                                <P>
+                                                Teknikprogrammet med inriktning på informations- och medieteknik är en gymnasial utbildning som
+                                                fokuserar på teknik, datavetenskap och medieproduktion. Under programmet lärde jag mig grunderna
+                                                inom datateknik, webbutveckling, digital grafik, och multimedia. Jag fick också kunskap om hur man
+                                                skapar och hanterar digitala medier, inklusive text, bild och ljud.
+                                                </P>
+                                            <h3>
+                                                Språkkunskaper
+                                            </h3>
+                                                <P>
+                                                Svenska - Modersmål
+                                                <br>Engelska - Mycket goda kunskaper i tal och skrift
+                                                <br>Spanska - Grundligt
+                                                </P>
+                                            <h3>
+                                                Referenser
+                                            </h3>
+                                                <P>
+                                                Tillängliga på begäran.
+                                                </P>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Denna hemsida är byggd Januari 2024 som en skoluppgift, alla bilder som inte är på mig är tagna av mig. Nu kommer bara utfyllnadstext, 
+         låtsas som att det står något coolt om Copyright eller så. Här kan du läsa på om Copyright om du vill också <a href="https://www.prv.se/sv/kunskap-och-stod/vanliga-ord-och-begrepp/copyright/" target="_blank">Patent och Registreringsverket</a> </p>
+     </footer>
+     <script src="scriptportfolio.js"></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #498467;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/* Navigationsmeny */
+
+.main-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1E2019;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  font-size: x-large;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+.main-menu li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.main-menu li a:hover {
+  color: #F2C57C;
+}
+
+.active-page {
+  background-color: #808080;
+  border: 10px #1E2019;
+  border-style: solid;
+  border-radius: 35px;
+}
+
+main {
+  flex: 100;
+}
+
+/* Rubriker */
+#homepage h1 {
+  text-align: center;
+  padding: 0;
+  font-size: 300%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* brödtext på frontpage*/
+#homepage p {
+  text-align: center;
+  padding: 0;
+  font-size: 255%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  margin-top: 10%;
+  animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+  from{opacity: 0;}
+}
+/* Portfoliosidan */
+#portfolio li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0;
+}
+
+#portfolio h1{
+  text-align: center;
+  padding: 0;
+  font-size: 300%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
+
+#portfolio h2{
+  padding-left: 1%;
+  font-size: 200%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
+
+#li1{
+  font-size: 175%;
+  animation: fadeIn 1s ease-in-out 1.5s forwards;
+}
+#li2{
+  font-size: 175%;
+  animation: fadeIn 1s ease-in-out 2s forwards;
+}
+#li3{
+  font-size: 175%;
+  animation: fadeIn 1s ease-in-out 2.5s forwards;
+}
+#li4{
+  font-size: 175%;
+  animation: fadeIn 1s ease-in-out 3s forwards;
+}
+#li5{
+  font-size: 175%;
+  animation: fadeIn 1s ease-in-out 3.5s forwards;
+}
+#li6{
+  font-size: 175%;
+  animation: fadeIn 1s ease-in-out 4s forwards;
+}
+#li7{
+  font-size: 175%;
+  animation: fadeIn 1s ease-in-out 4.5s forwards;
+}
+#li8{
+  font-size: 175%;
+  animation: fadeIn 1s ease-in-out 5s forwards;
+}
+
+
+
+#cvPopup li{
+  opacity: 1;
+}
+
+#portfolio img {
+  width: 15%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+#cvPopup{
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.CV {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000b3;
+  overflow: auto;
+}
+
+.popup-content {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  overflow: scroll;
+  max-width: 80%; 
+  max-height: 80%; 
+  overflow-y: auto; 
+  overflow-x: hidden;
+}
+
+.close {
+  position: absolute;
+  top: 1px;
+  right: 15px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+
+footer {
+  color: #ffffff;
+  background-color: #1E2019;
+  text-align: center;
+  padding: 2px;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #portfolio img {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+
+  .main-menu li {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
+  .main-menu li a {
+    padding: 10px;
+  }
+}
