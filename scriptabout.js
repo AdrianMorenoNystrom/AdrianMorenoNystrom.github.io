@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Calculate the scroll position to trigger the effect for aboutpage1 and aboutpage2
       var triggerPosition1 = aboutpage1.offsetTop + aboutpage1Height / 2; // Adjust the divisor to make the first image fade out earlier
-      var triggerPosition2 = aboutpage2.offsetTop + aboutpage2.offsetHeight / 5;
+      var triggerPosition2 = aboutpage2.offsetTop + aboutpage2.offsetHeight / 2;
       // Check if the scroll position is below the trigger position for aboutpage1
       if (scrollPosition > triggerPosition1 && scrollPosition <= triggerPosition2) {
           // Calculate opacity based on scroll position for aboutpage1
