@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adrians Hemsida</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/styleportfolio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
@@ -17,7 +18,6 @@
                 <li><a href="index.html">Hem</a></li>
                 <li><a href="about.html">Om Adrian</a></li>
                 <li><a href="portfolio.html" class="active-page">Portfolio</a></li>
-                <li><a href="images.html">Bilder</a></li>
                 <li><a href="contact.html">Kontakt</a></li>
             </ul>
         </nav>
@@ -43,8 +43,8 @@
                 </ul>
                 <a href="https://github.com/AdrianMorenoNystrom" target="_blank">
                     <img src="images/github.png" alt="github-logo"></a>
-                <a href="#" onclick="openCV()">
-                    <img src="images/cv.png" alt="cv"></a>
+                <a href="#" onclick="openCV()" >
+                    <img src="images/cv.png" alt="cv" id="cvImg"></a>
 
                 <div id="cvPopup" class="CV" onclick="closeCV">
                     <div class="popup-content" onclick="event.stopPropagation">

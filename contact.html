@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adrians Hemsida</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
@@ -17,7 +18,6 @@
                 <li><a href="index.html">Hem</a></li>
                 <li><a href="about.html">Om Adrian</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="images.html">Bilder</a></li>
                 <li><a href="contact.html" class="active-page">Kontakt</a></li>
             </ul>
         </nav>
@@ -25,6 +25,25 @@
 
     <main>
 
+        <h1>
+            Kontakta mig!
+        </h1>
+    <div>
+        <form action="process_form.php" method="post">
+            <form action="process_form.php" method="post">
+                <label for="name">Namn</label><br>
+                <input type="text" id="name" name="name" required><br>
+        
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required><br>
+        
+                <label for="message">Meddelande</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+        
+                <input type="submit" value="Submit">
+        </form>
+    </div>
+    
     </main>
 
     <footer>

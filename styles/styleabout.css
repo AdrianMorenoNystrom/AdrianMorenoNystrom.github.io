@@ -45,7 +45,7 @@ img{
 #aboutpage1{
     margin: 0 auto; 
     transition: opacity 0s ease-in-out;
-    animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 
@@ -85,6 +85,11 @@ img{
     font-weight: lighter;
     font-size: 20px;
     position: absolute;
+}
+
+#firstSlideText,#secondSlideText2,#thirdSlideText,#fourthSlideText{
+    font-size: 35px;
+    font-weight: lighter;
 }
 
 .slidecontainer{
