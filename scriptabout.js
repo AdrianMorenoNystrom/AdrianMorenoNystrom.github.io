@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
       var aboutpage1Height = aboutpage1.offsetHeight;
 
       // Calculate the scroll position to trigger the effect for aboutpage1 and aboutpage2
-      var triggerPosition1 = aboutpage1.offsetTop + aboutpage1Height / 2; // Adjust the divisor to make the first image fade out earlier
-      var triggerPosition2 = aboutpage2.offsetTop + aboutpage2.offsetHeight / 2;
+      var triggerPosition1 = aboutpage1.offsetTop + aboutpage1Height / 5; // Adjust the divisor to make the first image fade out earlier
+      var triggerPosition2 = aboutpage2.offsetTop + aboutpage2.offsetHeight / 5;
       // Check if the scroll position is below the trigger position for aboutpage1
       if (scrollPosition > triggerPosition1 && scrollPosition <= triggerPosition2) {
           // Calculate opacity based on scroll position for aboutpage1
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
           aboutpage1.style.opacity = opacity1;
 
           // Apply inverse opacity to aboutpage2
-          aboutpage2.style.opacity = 0 - opacity1;
+          aboutpage2.style.opacity = 0.5 - opacity1;
           aboutpage3.style.opacity= 0;
       } else if (scrollPosition > triggerPosition2) {
           // Calculate opacity based on scroll position for aboutpage2
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
           aboutpage2.style.opacity = opacity2;
 
           // Apply inverse opacity to aboutpage3
-          aboutpage3.style.opacity = 0 - opacity2;
+          aboutpage3.style.opacity = 1 - opacity2;
       } else {
           // Reset opacity if above the trigger position for aboutpage1
           aboutpage1.style.opacity = 1;

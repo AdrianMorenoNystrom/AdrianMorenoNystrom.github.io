@@ -53,15 +53,12 @@ img{
     transition: opacity 0s ease-in-out;
     animation: fadeIn 1s ease-in-out;
     margin: 0 auto;
-    margin-top: 15%;
-    margin-bottom: 15%;
 }
 
 #aboutpage3{
     margin: 0 auto; 
     transition: opacity 0s ease-in-out;
     animation: fadeIn 1.5s ease-in-out;
-    margin-bottom: 5%;
 }
 
 
@@ -101,7 +98,6 @@ img{
 
 @media only screen and (max-width: 800px) {
     .content {
-        margin-top: 35%;
         margin-left: 5%;
         margin-right: 5%;
         flex-direction: column;
@@ -116,8 +112,8 @@ img{
         margin-right: 5%;
     }
 
-    #aboutpage1 img{
-        
+    .slidecontainer .slides3{
+
     }
 }
 
