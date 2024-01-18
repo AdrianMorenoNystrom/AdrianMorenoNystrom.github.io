@@ -111,9 +111,11 @@ img{
     .section p {
         margin-right: 5%;
     }
-
-    .slidecontainer .slides3{
-
+    #aboutpage1{
+        margin-top: 20%;
+    }
+    #aboutpage2{
+        margin-top: 30%;
     }
 }
 
