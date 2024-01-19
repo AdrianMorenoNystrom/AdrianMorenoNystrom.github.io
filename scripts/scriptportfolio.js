@@ -13,4 +13,4 @@ window.onclick = function(event) {
     }
 };
 
-setTimeout(function() { var about = document.getElementById("portfolio"); about.scrollIntoView({ behavior: 'smooth' }); }, 2000);
+setTimeout(function() { var about = document.getElementById("portfolio"); about.scrollIntoView({ behavior: 'smooth' }); }, 300);
