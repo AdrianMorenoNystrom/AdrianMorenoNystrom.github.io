@@ -12,3 +12,5 @@ window.onclick = function(event) {
         closeCV();
     }
 };
+
+setTimeout(function() { var about = document.getElementById("portfolio"); about.scrollIntoView({ behavior: 'smooth' }); }, 2000);

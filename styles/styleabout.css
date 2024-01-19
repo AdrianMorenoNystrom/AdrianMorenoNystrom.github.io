@@ -122,6 +122,12 @@ img{
     #aboutpage2{
         margin-top: 30%;
     }
+
+    #firstSlideText,#secondSlideText2,#thirdSlideText,#fourthSlideText{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
 }
 
 
