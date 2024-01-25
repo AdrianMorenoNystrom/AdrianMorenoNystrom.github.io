@@ -29,13 +29,13 @@
     height: 100vh;
     text-align: center; /* Align text in the center */
     margin-left: 10%;
-    margin-right: 10%;    
+    margin-right: 10%;   
 }
 
 .section img{
     display: block; 
     margin: 0 auto; 
-    border-radius: 25px;
+
 }
 
 img{
@@ -78,6 +78,7 @@ img{
 .image-container{
     position:relative;
     max-width: 50%;
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .img slides3{
